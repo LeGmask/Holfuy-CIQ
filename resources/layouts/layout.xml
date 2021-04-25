@@ -1,0 +1,16 @@
+<resources>
+    <layout id="MainLayout">
+        <label text="N" x="center" y="0%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label text="S" x="center" y="85%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label text="O" x="5%" y="center" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label text="E" x="95%" y="center" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <!-- <label id="date" x="center" y="20%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" /> -->
+        <label id="temperature" x="center" y="20%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+        <label id="wind_speed" x="center" y="60%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+        <label id="wind_gust" x="center" y="70%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    </layout>
+    <layout id="Message">
+        <bitmap id="LauncherIcon" filename="../drawables/launcher_icon.png" x="center" y="center"/>
+        <label id="message" x="center" y="70%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    </layout>
+</resources>

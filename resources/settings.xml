@@ -1,0 +1,21 @@
+<resources>
+
+    <properties>
+        <property id="station_id" type="number">101</property>
+        <property id="station_pwd" type="string">pass</property>
+    </properties>
+
+    <strings>
+       <string id="station_id">Station ID</string>
+       <string id="station_pwd">Station password</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.station_id" title="@Strings.station_id">
+            <settingConfig type="numeric" required="true"/>
+        </setting>
+        <setting propertyKey="@Properties.station_pwd" title="@Strings.station_pwd">
+            <settingConfig type="alphaNumeric" required="true"/>
+        </setting>
+    </settings>
+</resources>
