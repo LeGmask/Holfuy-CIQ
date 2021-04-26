@@ -66,16 +66,8 @@ class holfuyApp extends Application.AppBase {
     }
 
     function loadSettings() {
-        var station_id = Storage.getValue("station_id");
-        if (station_id == null) {
-            station_id = 101;
-            Storage.setValue("station_id", station_id);
-        }
-        var station_pwd = Storage.getValue("station_pwd");
-        if (station_pwd == null) {
-            station_pwd = "pass";
-            Storage.setValue("station_pwd", station_pwd);
-        }
+        var station_id = Properties.getValue("station_id");
+        var station_pwd = Properties.getValue("station_pwd");
         return {"id" => station_id, "pwd" => station_pwd};
     }
 }
